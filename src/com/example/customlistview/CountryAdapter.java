@@ -46,10 +46,10 @@ public class CountryAdapter extends BaseAdapter{
 	     
 	    if(convertView==null){
 	         
-	        /****** Inflate tabitem.xml file for each row ( Defined below ) *******/
+	        /****** Inflate list_row.xml file for each row ( Defined below ) *******/
 	        vi = inflater.inflate(R.layout.list_row, null);
 	         
-	        /****** View Holder Object to contain tabitem.xml file elements ******/
+	        /****** View Holder Object to contain list_row.xml file elements ******/
 
 	        holder = new ViewHolder();
 	        holder.image = (ImageView) vi.findViewById(R.id.img);
